@@ -7,6 +7,7 @@ public class VideoManager : MonoBehaviour
 {
 
     private VideoPlayer videoPlayer;
+    private VideoClip videoClip;
 
     private void Start() 
     {
@@ -29,10 +30,10 @@ public class VideoManager : MonoBehaviour
 
     }
 
-    public void URLToVideo(string url) 
+    public void LoadClip(string path) 
     {
-        videoPlayer.source = VideoSource.Url;
-        videoPlayer.url = "https://unity-youtube-dl-server.herokuapp.com/watch?v=dQw4w9WgXcQ";
+        //videoClip.originalPath = path;
+        videoPlayer.source = VideoSource.VideoClip;
         videoPlayer.Prepare();
         if (videoPlayer.isPrepared) {
             Play();
@@ -41,8 +42,5 @@ public class VideoManager : MonoBehaviour
         
     }
 
-    /*private void VideoPlayer_prepareCompleted(VideoPlayer source) {
-        Play();
-    }*/
     
 }
