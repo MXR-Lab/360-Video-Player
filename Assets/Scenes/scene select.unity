@@ -1764,6 +1764,7 @@ GameObject:
   - component: {fileID: 793740321}
   - component: {fileID: 793740320}
   - component: {fileID: 793740319}
+  - component: {fileID: 793740323}
   m_Layer: 0
   m_Name: RightHand Controller
   m_TagString: Untagged
@@ -2273,6 +2274,20 @@ MonoBehaviour:
     m_Reference: {fileID: 875253871413052681, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
   m_ButtonPressPoint: 0.5
+--- !u!114 &793740323
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 793740317}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb76ed70d9a4b7a4994f81650efac52c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toggleReference: {fileID: 4030294537197743205, guid: c348712bda248c246b8c49b3db54643f,
+    type: 3}
 --- !u!1 &892378631
 GameObject:
   m_ObjectHideFlags: 0
@@ -2910,8 +2925,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.07, y: 0.37}
-  m_SizeDelta: {x: 10, y: 7}
+  m_AnchoredPosition: {x: -0.07, y: 0.120000005}
+  m_SizeDelta: {x: 10, y: 7.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1580797176
 MonoBehaviour:
