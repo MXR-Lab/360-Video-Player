@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream:Assets/360 Videos/R0010063_er.MP4.meta
 guid: d6106638f7b6b1140b979d4dde39a499
+=======
+guid: 54f346f33d8ec11468b75cd1b827ab51
+>>>>>>> Stashed changes:Assets/Oculus/Interaction/Samples/Objects/Environment/Tooltips/NearSwipe/SwipeInstructions.mp4.meta
 VideoClipImporter:
   externalObjects: {}
   serializedVersion: 2
