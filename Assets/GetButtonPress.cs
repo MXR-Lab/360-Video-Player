@@ -8,8 +8,6 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class GetButtonPress : MonoBehaviour
 {
-    public bool canvasOn;
-    public Canvas can;
     public InputActionReference toggleReference = null;
 
     private void Awake()
@@ -26,30 +24,7 @@ public class GetButtonPress : MonoBehaviour
     {
         //bool isActive = !gameObject.activeSelf;
         //gameObject.SetActive(isActive);
-        //Debug.Log("This is the part where the gui fades in");
-        if (canvasOn == true)
-        {
-            Debug.Log("Button Pressed");
-            canvasOn = false;
-            can.enabled = false;
-        }
-        else
-        {
-            canvasOn = true;
-            can.enabled = true;
-        }
-    }
-    
-    void Start()
-    {
-        can.enabled = true;
-        canvasOn = true;
-        
-    }
-
-    void Update()
-    {
-
+        Debug.Log("This is the part where the gui fades in");
     }
 }
 
