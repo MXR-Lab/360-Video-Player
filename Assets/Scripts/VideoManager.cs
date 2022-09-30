@@ -2,12 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Video;
+using System.IO;
 
 public class VideoManager : MonoBehaviour
 {
 
-    private VideoPlayer videoPlayer;
-    private VideoClip videoClip;
+    public VideoPlayer videoPlayer;
+    public string Url;
+    string rootPath;
+    string path;
 
     private void Start() 
     {
@@ -30,10 +33,13 @@ public class VideoManager : MonoBehaviour
 
     }
 
-    public void LoadClip(string path) 
+    public void Awake() 
     {
         //videoClip.originalPath = path;
-        videoPlayer.source = VideoSource.VideoClip;
+        videoPlayer.source = VideoSource.Url;
+        rootPath = Application.persistentDataPath;
+        path = Path.Combine(rootPath, Url);
+        videoPlayer.url = path;
         videoPlayer.Prepare();
         if (videoPlayer.isPrepared) {
             Play();
