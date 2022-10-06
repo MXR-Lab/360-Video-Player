@@ -2561,6 +2561,7 @@ GameObject:
   - component: {fileID: 735468346}
   - component: {fileID: 735468349}
   - component: {fileID: 735468348}
+  - component: {fileID: 735468350}
   m_Layer: 5
   m_Name: ScrollArea
   m_TagString: Untagged
@@ -2641,6 +2642,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ShowMaskGraphic: 1
+--- !u!114 &735468350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 735468344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3312d7739989d2b4e91e6319e9a96d76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding: {x: 0, y: 0, z: 0, w: 0}
+  m_Softness: {x: 0, y: 0}
 --- !u!1 &780658987
 GameObject:
   m_ObjectHideFlags: 0
@@ -4217,8 +4232,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 499956019}
   m_HandleRect: {fileID: 499956018}
   m_Direction: 2
-  m_Value: 0.99999994
-  m_Size: 0.30965832
+  m_Value: 0.5
+  m_Size: 0.31376112
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -6490,7 +6505,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -0.0465, y: -9}
+  m_AnchoredPosition: {x: -0.0465, y: -2.82385}
   m_SizeDelta: {x: 10.013, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2036992255
