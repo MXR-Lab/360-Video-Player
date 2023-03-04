@@ -18,6 +18,10 @@ public class SceneManage : MonoBehaviour
        // sceneManager.UnloadSceneAsync(sceneManager.GetActiveScene());
         SceneManager.LoadScene("scene select", LoadSceneMode.Single);
     }
+    public void Unload()
+    {
+        SceneManager.UnloadSceneAsync("scene select");
+    }
 
     
 }

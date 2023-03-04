@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Videos2
+  m_EditorClassIdentifier: 
+  m_GroupName: Videos2
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 1b76e9ec48490ec429ba8db627f6e5ac
+  m_SerializeEntries:
+  - m_GUID: d557defb59d54de4db28113fa0a2aec2
+    m_Address: A63
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ee648da62848d67479c4ef418c33a193
+    m_Address: A71
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 547693f0f4a02db40be1338b41110815, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e6899844719973444a896c01d0408266, type: 2}
+    - {fileID: 11400000, guid: d7d741cf2b2dd51438f137045a4075ff, type: 2}

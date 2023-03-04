@@ -1424,16 +1424,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 786395073}
-        m_TargetAssemblyTypeName: SceneManage, Assembly-CSharp
-        m_MethodName: LoadVideo
+      - m_Target: {fileID: 1412561123}
+        m_TargetAssemblyTypeName: AddressableManager, Assembly-CSharp
+        m_MethodName: LoadAddressableLevel
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: video scene 2
+          m_StringArgument: 60
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &376023326
@@ -4869,6 +4869,50 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1354713605}
   m_CullTransparentMesh: 1
+--- !u!1 &1412561122
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1412561124}
+  - component: {fileID: 1412561123}
+  m_Layer: 0
+  m_Name: AddressableManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1412561123
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412561122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1af4cd947e286d641b260bdf647e75cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1412561124
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1412561122}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.8199997, y: 3.0195312, z: 15.599976}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1489602628
 GameObject:
   m_ObjectHideFlags: 0
@@ -4953,16 +4997,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 786395073}
-        m_TargetAssemblyTypeName: SceneManage, Assembly-CSharp
-        m_MethodName: LoadVideo
+      - m_Target: {fileID: 1412561123}
+        m_TargetAssemblyTypeName: AddressableManager, Assembly-CSharp
+        m_MethodName: LoadAddressableLevel
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: video scene 1
+          m_StringArgument: 59
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1489602631
@@ -5631,16 +5675,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 786395073}
-        m_TargetAssemblyTypeName: SceneManage, Assembly-CSharp
-        m_MethodName: LoadVideo
+      - m_Target: {fileID: 1412561123}
+        m_TargetAssemblyTypeName: AddressableManager, Assembly-CSharp
+        m_MethodName: LoadAddressableLevel
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: video scene 3
+          m_StringArgument: 63
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1756119636
@@ -5927,16 +5971,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 786395073}
-        m_TargetAssemblyTypeName: SceneManage, Assembly-CSharp
-        m_MethodName: LoadVideo
+      - m_Target: {fileID: 1412561123}
+        m_TargetAssemblyTypeName: AddressableManager, Assembly-CSharp
+        m_MethodName: LoadAddressableLevel
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: video scene 4
+          m_StringArgument: 59
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1915852195
@@ -6513,16 +6557,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 786395073}
-        m_TargetAssemblyTypeName: SceneManage, Assembly-CSharp
-        m_MethodName: LoadVideo
+      - m_Target: {fileID: 1412561123}
+        m_TargetAssemblyTypeName: AddressableManager, Assembly-CSharp
+        m_MethodName: LoadAddressableLevel
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: video scene 4
+          m_StringArgument: 71
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2025380150
