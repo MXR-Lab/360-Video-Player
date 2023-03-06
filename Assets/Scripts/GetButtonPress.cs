@@ -24,7 +24,6 @@ public class GetButtonPress : MonoBehaviour
 
     private void Toggle(InputAction.CallbackContext context)
     {
-<<<<<<< Updated upstream:Assets/GetButtonPress.cs
         //bool isActive = !gameObject.activeSelf;
         //gameObject.SetActive(isActive);
         //Debug.Log("This is the part where the gui fades in");
@@ -40,22 +39,17 @@ public class GetButtonPress : MonoBehaviour
             can.enabled = true;
         }
     }
-    
+
     void Start()
     {
         can.enabled = true;
         canvasOn = true;
-        
+
     }
 
     void Update()
     {
 
-=======
-        bool isActive = !gameObject.activeSelf;
-        gameObject.SetActive(isActive);
-        //Debug.Log("This is the part where the gui fades in");
->>>>>>> Stashed changes:Assets/Scripts/GetButtonPress.cs
     }
 }
 
