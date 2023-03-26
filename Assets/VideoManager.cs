@@ -36,10 +36,10 @@ public class VideoManager : MonoBehaviour
     public void Awake() 
     {
         //videoClip.originalPath = path;
-        //videoPlayer.source = VideoSource.Url;
-        //rootPath = Application.persistentDataPath;
-        //path = Path.Combine(rootPath, Url);
-        //videoPlayer.url = path;
+        videoPlayer.source = VideoSource.Url;
+        rootPath = Application.persistentDataPath;
+        path = Path.Combine(rootPath, Url);
+        videoPlayer.url = path;
         videoPlayer.Prepare();
         if (videoPlayer.isPrepared) {
             Play();
