@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 2899345397
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: b98b6f73c512cd89499ea4378b1f0c35
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: c12678a98877549a3fe7bb52917258ad
+HashAppended: 0
+ClassTypes:
+- Class: 329
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/360 Videos/R0010071_er.MP4
+- Assets/360 Videos/R0010063_er.MP4
+Dependencies: []

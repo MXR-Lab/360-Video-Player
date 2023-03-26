@@ -8,16 +8,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/scene select.unity
     guid: eb7f36d62f46a1f4f8b5ab7721fc6fd5
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/video scene 1.unity
     guid: 943d57da6a846834fabd999a28d8e4f2
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/video scene 2.unity
     guid: 96f7a432cc0d3c24a9794c574bb0ab2b
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/video scene 3.unity
     guid: c1de571486d5d6f4cb0445bec0cf696a
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/video scene 4.unity
     guid: 8aaaccd8cfbbd54408b9718141b9a0c8
   m_configObjects:

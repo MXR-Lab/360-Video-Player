@@ -1,0 +1,10 @@
+ManifestFileVersion: 0
+CRC: 2098207475
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: vidsetone
+      Dependencies: {}
+    Info_1:
+      Name: vidsettwo
+      Dependencies: {}

@@ -772,13 +772,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 325305884}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4cadb3e8b8f554d92a5075785699d620, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   videoPlayer: {fileID: 325305886}
-  Url: 
+  Url: This PC\Quest\Internal shared storage\Android\data\com.OSUMXRLab.Player360Video\files
 --- !u!328 &325305886
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -797,7 +797,7 @@ VideoPlayer:
   m_TargetMaterialProperty: <noninit>
   m_RenderMode: 2
   m_AspectRatio: 2
-  m_DataSource: 0
+  m_DataSource: 1
   m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
   m_TargetAudioSources:
