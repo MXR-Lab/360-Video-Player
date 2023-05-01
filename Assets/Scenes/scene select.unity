@@ -221,12 +221,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et suscipit
-    justo. Quisque sit amet rutrum orci, id efficitur odio. Nullam tincidunt tortor
-    a imperdiet lacinia. Donec maximus velit enim, sit amet mollis diam facilisis
-    sollicitudin. Curabitur pharetra est ac augue porta rutrum. Nam urna ipsum, maximus
-    sed fringilla a, malesuada eget nibh. Maecenas nec maximus libero. Ut lacinia
-    mi enim, id porta nisi luctus at.
+  m_text: 'Video 4: Tying off of the esophagus, head removal, and tongue removal.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1068,6 +1063,139 @@ MonoBehaviour:
   m_SnapThresholdDistance: 10
   m_Reticle: {fileID: 0}
   m_StopLineAtFirstRaycastHit: 1
+--- !u!1 &242818369
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 242818370}
+  - component: {fileID: 242818373}
+  - component: {fileID: 242818372}
+  - component: {fileID: 242818371}
+  m_Layer: 5
+  m_Name: Thumbnail 71
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &242818370
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 242818369}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1331317929}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -3.9588, y: 0.25}
+  m_SizeDelta: {x: 1, y: 1}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &242818371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 242818369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 242818372}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 786395073}
+        m_TargetAssemblyTypeName: SceneManage, Assembly-CSharp
+        m_MethodName: LoadVideo
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Scene71
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &242818372
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 242818369}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 540b36d3760996941ae56ddc25fb8641, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &242818373
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 242818369}
+  m_CullTransparentMesh: 1
 --- !u!1 &282361881
 GameObject:
   m_ObjectHideFlags: 0
@@ -1081,7 +1209,7 @@ GameObject:
   - component: {fileID: 282361884}
   - component: {fileID: 282361883}
   m_Layer: 5
-  m_Name: Thumbnail 71
+  m_Name: Thumbnail 66
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1160,7 +1288,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: video scene 4
+          m_StringArgument: Scene66
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &282361884
@@ -1183,7 +1311,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 540b36d3760996941ae56ddc25fb8641, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 32e29758724fdd741995b95fc0e59b45, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1259,12 +1387,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et suscipit
-    justo. Quisque sit amet rutrum orci, id efficitur odio. Nullam tincidunt tortor
-    a imperdiet lacinia. Donec maximus velit enim, sit amet mollis diam facilisis
-    sollicitudin. Curabitur pharetra est ac augue porta rutrum. Nam urna ipsum, maximus
-    sed fringilla a, malesuada eget nibh. Maecenas nec maximus libero. Ut lacinia
-    mi enim, id porta nisi luctus at.
+  m_text: 'Video 6: Continuation of hind-leg transfer and beginning of the bunging
+    process.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1433,7 +1557,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: video scene 2
+          m_StringArgument: Scene60
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &376023326
@@ -1620,12 +1744,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et suscipit
-    justo. Quisque sit amet rutrum orci, id efficitur odio. Nullam tincidunt tortor
-    a imperdiet lacinia. Donec maximus velit enim, sit amet mollis diam facilisis
-    sollicitudin. Curabitur pharetra est ac augue porta rutrum. Nam urna ipsum, maximus
-    sed fringilla a, malesuada eget nibh. Maecenas nec maximus libero. Ut lacinia
-    mi enim, id porta nisi luctus at.
+  m_text: 'Video 1: Loading the animal into the chute, rendering it unconcious, and
+    exsanguination.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1760,12 +1880,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et suscipit
-    justo. Quisque sit amet rutrum orci, id efficitur odio. Nullam tincidunt tortor
-    a imperdiet lacinia. Donec maximus velit enim, sit amet mollis diam facilisis
-    sollicitudin. Curabitur pharetra est ac augue porta rutrum. Nam urna ipsum, maximus
-    sed fringilla a, malesuada eget nibh. Maecenas nec maximus libero. Ut lacinia
-    mi enim, id porta nisi luctus at.
+  m_text: 'Video 10: Final step of hide removal utilizing hide-pulling machine.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1889,7 +2004,7 @@ GameObject:
   - component: {fileID: 480331982}
   - component: {fileID: 480331981}
   m_Layer: 5
-  m_Name: Thumbnail 71
+  m_Name: Thumbnail 65
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1968,7 +2083,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: video scene 4
+          m_StringArgument: Scene65
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &480331982
@@ -1991,7 +2106,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 540b36d3760996941ae56ddc25fb8641, type: 3}
+  m_Sprite: {fileID: 21300000, guid: aa7804d31b6815146bfac555cbd950fa, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2478,12 +2593,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et suscipit
-    justo. Quisque sit amet rutrum orci, id efficitur odio. Nullam tincidunt tortor
-    a imperdiet lacinia. Donec maximus velit enim, sit amet mollis diam facilisis
-    sollicitudin. Curabitur pharetra est ac augue porta rutrum. Nam urna ipsum, maximus
-    sed fringilla a, malesuada eget nibh. Maecenas nec maximus libero. Ut lacinia
-    mi enim, id porta nisi luctus at.
+  m_text: 'Video 7: Coninuation of the bunging process. Transfer of carcass from
+    shackle to plant rail system.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2819,12 +2930,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et suscipit
-    justo. Quisque sit amet rutrum orci, id efficitur odio. Nullam tincidunt tortor
-    a imperdiet lacinia. Donec maximus velit enim, sit amet mollis diam facilisis
-    sollicitudin. Curabitur pharetra est ac augue porta rutrum. Nam urna ipsum, maximus
-    sed fringilla a, malesuada eget nibh. Maecenas nec maximus libero. Ut lacinia
-    mi enim, id porta nisi luctus at.
+  m_text: 'Video 3: Removal of front feet followed by weasand opening.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -3480,7 +3586,7 @@ GameObject:
   - component: {fileID: 805510459}
   - component: {fileID: 805510458}
   m_Layer: 5
-  m_Name: Thumbnail 71
+  m_Name: Thumbnail 68
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3559,7 +3665,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: video scene 4
+          m_StringArgument: Scene68
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &805510459
@@ -3582,7 +3688,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 540b36d3760996941ae56ddc25fb8641, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 350fbe3ba9d0728469cce4b069eff848, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3613,7 +3719,7 @@ GameObject:
   - component: {fileID: 852362107}
   - component: {fileID: 852362106}
   m_Layer: 5
-  m_Name: Thumbnail 71
+  m_Name: Thumbnail 69
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3692,7 +3798,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: video scene 4
+          m_StringArgument: Scene69
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &852362107
@@ -3715,7 +3821,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 540b36d3760996941ae56ddc25fb8641, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e4de54348d5f5864ca6689508575edb6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3829,12 +3935,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et suscipit
-    justo. Quisque sit amet rutrum orci, id efficitur odio. Nullam tincidunt tortor
-    a imperdiet lacinia. Donec maximus velit enim, sit amet mollis diam facilisis
-    sollicitudin. Curabitur pharetra est ac augue porta rutrum. Nam urna ipsum, maximus
-    sed fringilla a, malesuada eget nibh. Maecenas nec maximus libero. Ut lacinia
-    mi enim, id porta nisi luctus at.
+  m_text: 'Video 8: Removal of the cod/udder fat, hind-leg transfer of the second
+    leg, and the beginning of hide removal from the forequarter of the carcass. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4121,6 +4223,141 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1058632268
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1058632269}
+  - component: {fileID: 1058632271}
+  - component: {fileID: 1058632270}
+  m_Layer: 5
+  m_Name: Text (TMP) (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1058632269
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058632268}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.007, y: 0.007, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1331317929}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.471, y: 0.25}
+  m_SizeDelta: {x: 1000, y: 140}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1058632270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058632268}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: 'Video 13: Carcass split in half utilizing the splitting saw.'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 36
+  m_fontSizeBase: 36
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 1
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: -49.55945, y: 0, z: -151.03732, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1058632271
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058632268}
+  m_CullTransparentMesh: 1
 --- !u!1 &1072670183
 GameObject:
   m_ObjectHideFlags: 0
@@ -4134,7 +4371,7 @@ GameObject:
   - component: {fileID: 1072670186}
   - component: {fileID: 1072670185}
   m_Layer: 5
-  m_Name: Thumbnail 71
+  m_Name: Thumbnail 70
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4213,7 +4450,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: video scene 4
+          m_StringArgument: Scene70
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1072670186
@@ -4236,7 +4473,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 540b36d3760996941ae56ddc25fb8641, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d346870192da12e40a1b81b8d2b05155, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4338,7 +4575,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 499956018}
   m_Direction: 2
   m_Value: 0.5
-  m_Size: 0.31376112
+  m_Size: 0.28962564
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -4394,7 +4631,7 @@ GameObject:
   - component: {fileID: 1252090261}
   - component: {fileID: 1252090260}
   m_Layer: 5
-  m_Name: Thumbnail 71
+  m_Name: Thumbnail 64
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4473,7 +4710,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: video scene 4
+          m_StringArgument: Scene64
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1252090261
@@ -4496,7 +4733,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 540b36d3760996941ae56ddc25fb8641, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6456afa5c7206fa4a8adc89336258414, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4609,7 +4846,7 @@ GameObject:
   - component: {fileID: 1324938282}
   - component: {fileID: 1324938281}
   m_Layer: 5
-  m_Name: Thumbnail 71
+  m_Name: Thumbnail 67
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4688,7 +4925,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: video scene 4
+          m_StringArgument: Scene67
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1324938282
@@ -4711,7 +4948,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 540b36d3760996941ae56ddc25fb8641, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0bc1c25d08d3ca44f9be3d9963a6e37f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4729,6 +4966,44 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1324938279}
   m_CullTransparentMesh: 1
+--- !u!1 &1331317928
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1331317929}
+  m_Layer: 5
+  m_Name: Item 4 (9)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1331317929
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1331317928}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 242818370}
+  - {fileID: 1058632269}
+  m_Father: {fileID: 2036992254}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 10, y: 1.5}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1354713605
 GameObject:
   m_ObjectHideFlags: 0
@@ -4787,12 +5062,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et suscipit
-    justo. Quisque sit amet rutrum orci, id efficitur odio. Nullam tincidunt tortor
-    a imperdiet lacinia. Donec maximus velit enim, sit amet mollis diam facilisis
-    sollicitudin. Curabitur pharetra est ac augue porta rutrum. Nam urna ipsum, maximus
-    sed fringilla a, malesuada eget nibh. Maecenas nec maximus libero. Ut lacinia
-    mi enim, id porta nisi luctus at.
+  m_text: 'Video 11: Splitting of the brisket.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -4962,7 +5232,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: video scene 1
+          m_StringArgument: Scene59
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1489602631
@@ -5428,12 +5698,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et suscipit
-    justo. Quisque sit amet rutrum orci, id efficitur odio. Nullam tincidunt tortor
-    a imperdiet lacinia. Donec maximus velit enim, sit amet mollis diam facilisis
-    sollicitudin. Curabitur pharetra est ac augue porta rutrum. Nam urna ipsum, maximus
-    sed fringilla a, malesuada eget nibh. Maecenas nec maximus libero. Ut lacinia
-    mi enim, id porta nisi luctus at.
+  m_text: 'Video 9: Further hide removal on the forequarter.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -5561,7 +5826,7 @@ GameObject:
   - component: {fileID: 1756119636}
   - component: {fileID: 1756119635}
   m_Layer: 5
-  m_Name: Thumbnail 63
+  m_Name: Thumbnail 61
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5640,7 +5905,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: video scene 3
+          m_StringArgument: Scene61
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1756119636
@@ -5663,7 +5928,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b6503fc071be2fa48b9577031c7d8bf2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3a7fab4caa2fad34093975ba8e5d2141, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5857,7 +6122,7 @@ GameObject:
   - component: {fileID: 1915852195}
   - component: {fileID: 1915852194}
   m_Layer: 5
-  m_Name: Thumbnail 71
+  m_Name: Thumbnail 63
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5936,7 +6201,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: video scene 4
+          m_StringArgument: Scene63
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1915852195
@@ -5959,7 +6224,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 540b36d3760996941ae56ddc25fb8641, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b6503fc071be2fa48b9577031c7d8bf2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6073,12 +6338,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et suscipit
-    justo. Quisque sit amet rutrum orci, id efficitur odio. Nullam tincidunt tortor
-    a imperdiet lacinia. Donec maximus velit enim, sit amet mollis diam facilisis
-    sollicitudin. Curabitur pharetra est ac augue porta rutrum. Nam urna ipsum, maximus
-    sed fringilla a, malesuada eget nibh. Maecenas nec maximus libero. Ut lacinia
-    mi enim, id porta nisi luctus at.
+  m_text: 'Video 2: Discussion of the stunning process.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6213,12 +6473,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et suscipit
-    justo. Quisque sit amet rutrum orci, id efficitur odio. Nullam tincidunt tortor
-    a imperdiet lacinia. Donec maximus velit enim, sit amet mollis diam facilisis
-    sollicitudin. Curabitur pharetra est ac augue porta rutrum. Nam urna ipsum, maximus
-    sed fringilla a, malesuada eget nibh. Maecenas nec maximus libero. Ut lacinia
-    mi enim, id porta nisi luctus at.
+  m_text: 'Video 12: Process of evisceration where both the viscera and pluck are
+    removed. '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -6443,7 +6699,7 @@ GameObject:
   - component: {fileID: 2025380150}
   - component: {fileID: 2025380149}
   m_Layer: 5
-  m_Name: Thumbnail 71
+  m_Name: Thumbnail 62
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6522,7 +6778,7 @@ MonoBehaviour:
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: video scene 4
+          m_StringArgument: Scene62
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &2025380150
@@ -6545,7 +6801,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 540b36d3760996941ae56ddc25fb8641, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8bb4f28a9c3a4c34ba0932ec835c38db, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6605,12 +6861,13 @@ RectTransform:
   - {fileID: 1922305412}
   - {fileID: 1892440156}
   - {fileID: 936093041}
+  - {fileID: 1331317929}
   m_Father: {fileID: 735468345}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -0.0465, y: -2.82385}
+  m_AnchoredPosition: {x: -0.0000002719462, y: -2.82385}
   m_SizeDelta: {x: 10.013, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2036992255
@@ -6711,12 +6968,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis et suscipit
-    justo. Quisque sit amet rutrum orci, id efficitur odio. Nullam tincidunt tortor
-    a imperdiet lacinia. Donec maximus velit enim, sit amet mollis diam facilisis
-    sollicitudin. Curabitur pharetra est ac augue porta rutrum. Nam urna ipsum, maximus
-    sed fringilla a, malesuada eget nibh. Maecenas nec maximus libero. Ut lacinia
-    mi enim, id porta nisi luctus at.
+  m_text: 'Video 5: Beginning of hide removal and hind-leg transfer.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
